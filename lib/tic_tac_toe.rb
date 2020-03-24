@@ -80,8 +80,13 @@ class TicTacToe
       pos2 = @board[index1]
       pos3 = @board[index2]
       
-      if pos1
-      
+      if pos1 == "X" && pos2 == "X" && pos3 == "X"
+        combo 
+      elsif pos1 == "O" && pos2 == "O", pos3 == "O"
+        combo
+      end 
+    end 
+    false
   end
   
   def full?
