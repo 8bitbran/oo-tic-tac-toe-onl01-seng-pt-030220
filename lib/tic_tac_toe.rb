@@ -59,4 +59,10 @@ class TicTacToe
       input = gets.chomp
     end
   end 
+  
+  def turn_count 
+    @board.each do |index| 
+      index == "X" : index == "O"
+      
+  end
 end 
