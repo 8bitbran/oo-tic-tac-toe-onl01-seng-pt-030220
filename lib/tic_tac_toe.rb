@@ -71,7 +71,11 @@ class TicTacToe
   end
   
   def won?
-    if @board.include?(WIN_COMBINATIONS)
+    WIN_COMBINATIONS.each do |combo|
+      index0 = combo[0]
+      index1 = combo[1]
+      index2 = combo[2]
+      
       
       
   end
