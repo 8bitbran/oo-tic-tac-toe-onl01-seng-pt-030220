@@ -98,6 +98,9 @@ class TicTacToe
       true 
     elsif won?
       false
+    else
+      false
+    end
   end
   
   def over? 
