@@ -104,7 +104,7 @@ class TicTacToe
   end
   
   def over? 
-    
+    if won? 
   end
   
 end 
