@@ -70,4 +70,22 @@ class TicTacToe
     turn
   end
   
+  def won?
+    if @board.include?(WIN_COMBINATIONS)
+      
+      
+  end
+  
+  def full?
+    
+  end
+  
+  def draw?
+    
+  end
+  
+  def over? 
+    
+  end
+  
 end 
