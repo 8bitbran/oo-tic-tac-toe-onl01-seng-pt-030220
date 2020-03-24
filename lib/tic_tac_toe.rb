@@ -62,7 +62,7 @@ class TicTacToe
   
   def turn_count 
     @board.each do |index| 
-      index == "X" : index == "O"
+      if index == "X" 
       
   end
 end 
