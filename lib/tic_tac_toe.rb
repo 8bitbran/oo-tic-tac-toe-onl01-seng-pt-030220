@@ -57,5 +57,6 @@ class TicTacToe
       display_board
     else
       input = gets.Chomp
+    end
   end 
 end 
