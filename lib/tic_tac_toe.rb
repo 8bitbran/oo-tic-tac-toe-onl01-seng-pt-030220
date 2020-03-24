@@ -82,7 +82,7 @@ class TicTacToe
       
       if pos1 == "X" && pos2 == "X" && pos3 == "X"
         combo 
-      elsif pos1 == "O" && pos2 == "O", pos3 == "O"
+      elsif pos1 == "O" && pos2 == "O" pos3 == "O"
         combo
       end 
     end 
