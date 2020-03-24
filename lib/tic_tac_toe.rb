@@ -49,6 +49,8 @@ class TicTacToe
   
   def turn 
     puts "Choose a number 1-9."
+    input = gets.Chomp 
+    
     
   end 
 end 
