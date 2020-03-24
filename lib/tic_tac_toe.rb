@@ -123,6 +123,6 @@ class TicTacToe
         return "O"
       end
     end
-  end 
+  end
   
 end 
