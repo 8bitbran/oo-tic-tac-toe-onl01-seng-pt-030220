@@ -56,7 +56,7 @@ class TicTacToe
       move(index, player)
       display_board
     else
-      input = gets.Chomp
+      input = gets.chomp
     end
   end 
 end 
