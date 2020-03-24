@@ -71,7 +71,7 @@ class TicTacToe
   end
   
   def won?
-    WIN_COMBINATIONS.each do |combo|
+    WIN_COMBINATIONS.each {|combo|
       index0 = combo[0]
       index1 = combo[1]
       index2 = combo[2]
@@ -85,7 +85,7 @@ class TicTacToe
       elsif pos1 == "O" && pos2 == "O" && pos3 == "O"
         combo
       end 
-    end 
+    }
     false
   end
   
