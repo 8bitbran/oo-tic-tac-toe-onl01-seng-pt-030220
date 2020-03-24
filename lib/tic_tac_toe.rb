@@ -76,7 +76,11 @@ class TicTacToe
       index1 = combo[1]
       index2 = combo[2]
       
+      pos1 = @board[index0]
+      pos2 = @board[index1]
+      pos3 = @board[index2]
       
+      if pos1
       
   end
   
