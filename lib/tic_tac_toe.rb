@@ -81,9 +81,9 @@ class TicTacToe
       pos3 = @board[index2]
       
       if pos1 == "X" && pos2 == "X" && pos3 == "X"
-        combo 
+        return combo 
       elsif pos1 == "O" && pos2 == "O" && pos3 == "O"
-        combo
+        return combo
       end 
     }
     false
