@@ -36,6 +36,6 @@ class TicTacToe
     index = input.to_i- 1
   end 
   
-  def move()
+  def move(index, player = "X")
   end
 end 
