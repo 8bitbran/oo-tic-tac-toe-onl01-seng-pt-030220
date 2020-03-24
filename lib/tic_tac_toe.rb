@@ -111,4 +111,11 @@ class TicTacToe
     end
   end
   
+  def winner 
+    index = []
+    index = won? 
+    if won? == true
+      
+  end 
+  
 end 
